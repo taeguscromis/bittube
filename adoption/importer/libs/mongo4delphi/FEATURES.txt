@@ -1,0 +1,34 @@
+﻿Features
+
+    PARTIAL - BSON serialization/deserialization¹
+    OK - Basic operations: query, insert, update, updateMulti, remove, createIndex, dropIndex, findOne, limit, sort, skip, snapshot
+    OK - Cursor support. Fetch more data from a cursor when necessary (OP_GET_MORE)
+    OK - Sending of KillCursors operation when use of a cursor has completed (TODO - ideally for efficiently these are sent in batches)
+    OK - Convert all strings to utf8
+    OK - Authentication: Authenticate/Logout
+		OK - Database Command ($cmd) support and helpers
+    OK - Detect { $err: ... } response from a db query and handle appropriately --see Error Handling in Mongo Drivers
+    OK - lasterror helper functions
+    OK - count() helper function
+    OK - $where clause
+    OK - hint fields
+    OK - explain helper
+		OK - GetDatabaseNames
+		OK - DropDatabase
+		OK - DropCollection(CollName) or Collection.Drop()
+		OK - Added getCollectionNames to TMongoDB. Splitted into: GetCollections(include system collections) and GetUserCollections(not include system collections)	
+		OK - Added CreateCollection(name, options) to TMongoDB	
+		OK - Added List<DBObject> getIndexInfo() to TMongoCollection to return all indexes information
+		OK - Added dropIndexes() to TMongoCollection to drop all indexes
+	
+    TODO - [Automatically connect to proper server, and failover], when connecting to a Replica Set
+    TODO - ensureIndex commands should be cached to prevent excessive communication with the database. (Or, the driver user should be informed that
+			    ensureIndex is not a lightweight operation for the particular driver.)
+    TODO - Support detecting max BSON size on connection (e.g., using buildinfo or isMaster commands) and allowing users to insert docs up to that size.
+    TODO - eval()
+    TODO - File chunking (GridFS)
+
+
+(1) Types not yet implemented subtypes  
+  BSON_SUBTYPE_FUNC    = $01;
+  BSON_SUBTYPE_MD5     = $05;  

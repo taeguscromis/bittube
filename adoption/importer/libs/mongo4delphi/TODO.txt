@@ -1,0 +1,46 @@
+Mongo Delphi Driver API	
+	Use typed exception descendents of EMongoException when raise.
+	Use resourcestring for exception messages rather than hard coded strings.
+
+To Fully mongodb support	
+
+	TODO - Review unicode compatibility
+
+	TODO - Add size protected to MongoDecoder 16MB. This information could be retrieved with maxBsonObjectSize property of buildinfo or isMaster command:
+				int size = readInt();
+				if ( size <= 0 || size > ( 16 * 1024 * 1024 ) )
+					throw new BSONException( "bad string size: " + size ); (16 * 1024 * 1024)
+	TODO - Make the KillCursor more effecient: "Sending of KillCursors operation when use of a cursor has completed (ideally for efficiently these are sent in batches)"
+	TODO - automatic _id generation in client side
+	TODO - Review error handling http://www.mongodb.org/display/DOCS/Error+Handling+in+Mongo+Drivers
+	TODO - Add EnsureIndex to MongoCollection. EnsureIndex must be cached for optimization.
+	TODO - Cache TMongo.GetDB
+	TODO - Cache TMongoDB.GetCollection
+	TODO - Add eval() to TMongoDB
+	TODO - validate a collection in a database
+	TODO - Tailable cursor support - http://www.mongodb.org/display/DOCS/Tailable+Cursors
+	TODO - database profiling: set/get profiling level, get profiling info(getProfilingLevel, setProfilingLevel, getProfilingInfo) 
+	TODO - advanced connection management (slave okay)
+	TODO - Automatically connect to proper server, and failover, when connecting to a Replica Set
+	TODO - automatic reconnection on connection failure
+	TODO - Support to GridFS
+	TODO - Add a ping command to check if a server is alive. This command will return immediately even if the server is in a lock.
+				def ping
+					self["admin"].command({:ping => 1})
+				end
+
+New Features
+	IN PROGRESS - Create a QueryBuilder to facilitate the construction of complex queries
+	TODO - Create a BSON constructor json like, inspired on stijnsanders/TMongoWire project.
+	TODO - Interface to Map/Reduce
+	TODO - Interface to Rename collection: RunCommand('admin', BSON(['renameCollection', from_ns, 'to', to_ns]));
+	
+Improvement	 
+	TODO - Replace direct access to TBSONStream.Read with specific methods, like ReadInt, ReadInt64
+	TODO - Include a Log for debug with almost Console
+	TODO - Requests manager. Each request must be a self stream
+	TODO - Automated build and unit test for target environments
+	TODO - Verify option TCP_NODELAY in socket connection to improve performance. See https://github.com/stijnsanders/TMongoWire/commit/d203da3f0439377555e87565d1aec734947eb39b
+	
+Demo Application
+  

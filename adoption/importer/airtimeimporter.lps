@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="15">
+      <Unit0>
+        <Filename Value="airtimeimporter.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="163"/>
+        <CursorPos X="76" Y="192"/>
+        <UsageCount Value="2329"/>
+        <Bookmarks Count="1">
+          <Item0 Y="238" ID="8"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/packages/fcl-json/src/fpjson.pp"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="102"/>
+        <CursorPos X="3" Y="76"/>
+        <UsageCount Value="1124"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="libs/indy/System/IdStackUnix.pas"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="375"/>
+        <CursorPos X="55" Y="402"/>
+        <UsageCount Value="1123"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="libs/mongo4delphi/src/MongoDB.pas"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="29"/>
+        <CursorPos X="14" Y="50"/>
+        <UsageCount Value="102"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="libs/mongo4delphi/src/MongoCollection.pas"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="40"/>
+        <CursorPos X="3" Y="31"/>
+        <UsageCount Value="102"/>
+        <Loaded Value="True"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="libs/mongo4delphi/src/BSONTypes.pas"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="137"/>
+        <CursorPos X="3" Y="158"/>
+        <UsageCount Value="102"/>
+        <Loaded Value="True"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="libs/indy/Protocols/IdHTTP.pas"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="438"/>
+        <CursorPos X="3" Y="465"/>
+        <UsageCount Value="101"/>
+        <Loaded Value="True"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/packages/fcl-web/src/base/fphttpclient.pp"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="578"/>
+        <CursorPos X="46" Y="577"/>
+        <UsageCount Value="99"/>
+        <Loaded Value="True"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/packages/fcl-net/src/ssockets.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="203"/>
+        <CursorPos X="17" Y="224"/>
+        <UsageCount Value="94"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/packages/fcl-net/src/sslsockets.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="68"/>
+        <CursorPos X="22" Y="99"/>
+        <UsageCount Value="94"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/packages/openssl/src/openssl.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="82"/>
+        <CursorPos X="31" Y="106"/>
+        <UsageCount Value="94"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/inc/dynlibs.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="25"/>
+        <CursorPos X="10" Y="46"/>
+        <UsageCount Value="83"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="libs/synapse/httpsend.pas"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="236"/>
+        <CursorPos X="10" Y="257"/>
+        <UsageCount Value="13"/>
+        <Loaded Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="989"/>
+        <CursorPos X="61" Y="1007"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="/usr/share/fpcsrc/3.0.4/packages/fcl-json/src/jsonparser.pp"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="157"/>
+        <CursorPos X="23" Y="192"/>
+        <UsageCount Value="12"/>
+        <Loaded Value="True"/>
+      </Unit14>
+    </Units>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="156" TopLine="145"/>
+      </Position1>
+      <Position2>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="157" TopLine="145"/>
+      </Position2>
+      <Position3>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="158" TopLine="145"/>
+      </Position3>
+      <Position4>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="160" TopLine="145"/>
+      </Position4>
+      <Position5>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="161" TopLine="145"/>
+      </Position5>
+      <Position6>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="162" TopLine="145"/>
+      </Position6>
+      <Position7>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="163" TopLine="145"/>
+      </Position7>
+      <Position8>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="164" TopLine="145"/>
+      </Position8>
+      <Position9>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="166" TopLine="145"/>
+      </Position9>
+      <Position10>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="168" TopLine="160"/>
+      </Position10>
+      <Position11>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="169" TopLine="160"/>
+      </Position11>
+      <Position12>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="170" TopLine="160"/>
+      </Position12>
+      <Position13>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="172" TopLine="160"/>
+      </Position13>
+      <Position14>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="179" Column="41" TopLine="160"/>
+      </Position14>
+      <Position15>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="172" TopLine="160"/>
+      </Position15>
+      <Position16>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="174" TopLine="160"/>
+      </Position16>
+      <Position17>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="175" TopLine="160"/>
+      </Position17>
+      <Position18>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="177" TopLine="160"/>
+      </Position18>
+      <Position19>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="169" TopLine="161"/>
+      </Position19>
+      <Position20>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="166" TopLine="161"/>
+      </Position20>
+      <Position21>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="172" TopLine="161"/>
+      </Position21>
+      <Position22>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="173" TopLine="161"/>
+      </Position22>
+      <Position23>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="172" TopLine="161"/>
+      </Position23>
+      <Position24>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="174" TopLine="161"/>
+      </Position24>
+      <Position25>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="175" TopLine="161"/>
+      </Position25>
+      <Position26>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="177" TopLine="161"/>
+      </Position26>
+      <Position27>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="169" TopLine="161"/>
+      </Position27>
+      <Position28>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="177" TopLine="161"/>
+      </Position28>
+      <Position29>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="87" Column="20" TopLine="139"/>
+      </Position29>
+      <Position30>
+        <Filename Value="airtimeimporter.lpr"/>
+        <Caret Line="193" Column="82" TopLine="155"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="/usr/share/fpcsrc/3.0.4/packages/openssl/src/openssl.pas"/>
+        <Line Value="4600"/>
+      </Item1>
+    </BreakPoints>
+    <Watches Count="1">
+      <Item1>
+        <Expression Value="AResult.Position"/>
+      </Item1>
+    </Watches>
+  </Debugging>
+</CONFIG>

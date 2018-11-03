@@ -1,0 +1,88 @@
+{
+    "title" : 
+    [
+        {
+            "text": "Alltime activity by visitors",
+            "subtext": "Activity of all visitors through time"
+        },
+        {
+            "top": "50%",
+            "text": "Alltime activity by others",
+            "subtext": "Activity of user and creators through time"
+        }
+    ],
+    "tooltip" : 
+    {
+        "trigger": "axis",
+        "axisPointer": 
+        {
+            "type": "cross"
+        }
+    },
+    "legend": [
+        {            
+            "data": ["All viewers"]
+        },
+        {
+            "top": "50%",
+            "data": ["All registered viewers","All channels"]
+        }
+    ],
+    "xAxis" : 
+    [
+        {
+            "type" : "category",
+            "boundaryGap": false,
+            "data" : []
+        },
+        {
+            "type" : "category",
+            "boundaryGap": false,
+            "data" : [],
+            "gridIndex": 1
+        }
+    ],
+    "yAxis" : 
+    [
+        {
+            "type" : "value"
+        },
+        {
+            "type" : "value",
+            "gridIndex": 1
+        }
+    ],
+    "grid": 
+    [
+        {
+            "bottom": "60%"
+        }, 
+        {
+            "top": "60%"
+        }
+    ],
+    "series" : [
+        {
+            "name":"All viewers",
+            "type":"line",
+            "smooth": true,
+            "data":[]
+        },
+        {
+            "name":"All registered viewers",
+            "type":"line",
+            "smooth": true,
+            "data":[],
+            "xAxisIndex": 1,
+            "yAxisIndex": 1        
+        },
+        {
+            "name":"All channels",
+            "type":"line",
+            "smooth": true,
+            "data":[],
+            "xAxisIndex": 1,
+            "yAxisIndex": 1        
+        }
+    ]
+}

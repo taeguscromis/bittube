@@ -1,0 +1,61 @@
+extends layout
+
+block content
+  #pageHeader
+    #logoWrapper
+    img.logo(src="https://coin.bit.tube/wp-content/uploads/2018/08/logo_BitTube.png" alt="Image BitTube")
+    #alltimedata
+      #atviewers
+        span.alltimetext Alltime viewers: #{alltime.viewers}
+      #atusers
+        span.alltimetext Alltime users: #{alltime.users}
+      #atchannels
+        span.alltimetext Alltime channels: #{alltime.channels}
+  #tabNav.tab
+    button#airTimeTab.tablinks.active
+      | Airtime data
+    button#allTimeTab.tablinks
+      | Alltime data
+    button#earningTab.tablinks
+      | Eearnings data
+  #chartsWrapper.wrapper
+    #airtimeChart.chart.tabcontent
+    #alltimeChart.chart.tabcontent
+    #earningChart.chart.tabcontent
+  #donateAddress
+    span.donatelabel
+      | Donation address (TUBE):
+    span.donateAddress
+      | bxdmTn7AMfT3sR2SfVGqQd75zYu8W4qxq7nYxRjwZfA3hdLAEcjKwWmZE1TXwgJef1H1MmRSpKp9mFWG8ubUbRL432Ss4mnUV
+  script.
+    var airtimeChartInitialized = false;
+    var alltimeChartInitialized = false;
+    var earningChartInitialized = false;
+
+    if (airtimeChartInitialized == false)
+    {
+      var airtimeChart = echarts.init(document.getElementById('airtimeChart'));
+      airtimeChart.setOption(!{airTimeChartData});
+      airtimeChartInitialized = true;
+    }
+
+    $(document).on('alltimeChartShow', function() 
+    {
+      if (alltimeChartInitialized == false)
+      {
+        var alltimeChart = echarts.init(document.getElementById('alltimeChart'));
+        alltimeChart.setOption(!{allTimeChartData});
+        alltimeChartInitialized = true;
+      }
+    });
+    
+    $(document).on('earningChartShow', function() 
+    {
+      if (earningChartInitialized == false)
+      {
+        var earningChart = echarts.init(document.getElementById('earningChart'));
+        earningChart.setOption(!{earningChartData});
+        earningChartInitialized = true;
+      }
+    });
+});
